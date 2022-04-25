@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+.header {
+    background-color: grey;
+    padding: 20px;
+    height: auto;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.header-title {
+    margin-top: 0;
+}
+
+.header-nav {
+    margin: 20px 0;
+}
+
+.header-nav a {
+    padding: 10px;
+}
+
+.main {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.footer {
+    background-color: grey;
+    padding: 10px 20px;
+}
