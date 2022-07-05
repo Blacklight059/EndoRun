@@ -12,6 +12,7 @@ body {
     letter-spacing: 0.2px;
     font-family: "Source Sans Pro", sans-serif;
 }
+
 .header {
     background-color: grey;
     padding: 20px;
@@ -37,7 +38,7 @@ body {
     z-index: 4;
 }
 
-.header-nav{
+.header-nav {
     overflow: hidden;
     margin-top: 10px;    
     text-align: center;
@@ -45,7 +46,7 @@ body {
 
 }
 
-.header-nav a, .haut a {
+.header-nav a {
     padding: 0 10px;
     box-sizing: border-box;
     color: inherit;
@@ -61,6 +62,23 @@ body {
 .main {
     background-color: lightgray;
     padding: 20px;
+}
+
+.main-nav {
+    border-radius: 1rem;
+}
+
+.main-nav, .dropdown-menu {
+    background: linear-gradient(45deg,#22a6b3,#30336b);
+}
+
+.main-nav a {
+    color: white;
+}
+
+.main-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: whitesmoke;
 }
 
 .footer {
