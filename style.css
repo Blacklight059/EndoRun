@@ -2,16 +2,28 @@
     box-sizing: border-box;
 }
 
-html, body{
+.html, .body{
     font-size: 16px;
 }
 
-body {
+.body {
     margin: 0;
     line-height: 1.4;
     letter-spacing: 0.2px;
     font-family: "Source Sans Pro", sans-serif;
 }
+
+h2 {
+    color:#fff;
+    background: linear-gradient(45deg,#30336b,#22a6b3);
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 2rem;
+
+}
+
 
 .header {
     background-color: grey;
@@ -80,6 +92,16 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     color: whitesmoke;
 }
+
+.ul {
+    padding: 20px;
+}
+
+.li {
+    margin: 10px;
+}
+
+
 
 .footer {
     background-color: grey;
