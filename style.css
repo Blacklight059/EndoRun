@@ -18,10 +18,14 @@ h2 {
     background: linear-gradient(45deg,#30336b,#22a6b3);
     text-decoration: underline;
     text-align: center;
-    margin: 20px 0px;
-    padding: 10px;
     border-radius: 2rem;
+    margin: 20px 0px;
+    padding: 10px 20px;
+}
 
+h3, h4 {
+    margin: 20px 0px;
+    padding: 10px 20px;
 }
 
 
@@ -93,14 +97,34 @@ h2 {
     color: whitesmoke;
 }
 
-.ul {
+.quoiendométriose a, .symptômes a, .diagnostic a, .priseencharge a, .méthodesnaturelles a {
+    background-color: #22a6b3;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 1rem;
+}
+
+
+.main ul {
     padding: 20px;
+
 }
 
-.li {
-    margin: 10px;
+.main li {
+    margin: 5px;
 }
 
+.article-schemas{
+    
+background-color:
+#fff ;
+}
+img{
+margin-bottom:0px ;
+padding-bottom:20px ;
+}
 
 
 .footer {
