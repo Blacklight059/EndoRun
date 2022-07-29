@@ -16,17 +16,17 @@
 h2 {
     color:#fff;
     background: linear-gradient(45deg,#30336b,#22a6b3);
-    text-decoration: underline;
     text-align: center;
     border-radius: 2rem;
     margin: 20px 0px;
     padding: 10px 20px;
 }
 
-h3, h4 {
+h3, h4, h5 {
     margin: 20px 0px;
     padding: 10px 20px;
 }
+
 
 p, ul, .contact a {
     margin: 10px 30px;
@@ -38,7 +38,7 @@ p, ul, .contact a {
     padding: 20px;
     height: 400px;
     color: white;
-    background-image: linear-gradient(to bottom, #000, #0008), url("img/Run_endo.jpg");
+    background-image: url("img/Run_endo.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -61,7 +61,7 @@ p, ul, .contact a {
 .header-nav {
     overflow: hidden;
     margin-top: 20px;
-    border-radius: 1rem 1.5rem;    
+    border-radius: 1rem;    
     text-align: center;
     z-index: 3;
 
@@ -73,11 +73,12 @@ p, ul, .contact a {
     color: inherit;
     text-decoration: none;
     font-size: 1em;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #30336b;
+    border-right: 1px solid white;
 }
 
 .header-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4)
 }
 
 .main {
@@ -85,8 +86,15 @@ p, ul, .contact a {
     padding: 20px;
 }
 
+.navbar-collapse {
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
 .main-nav {
     border-radius: 1rem;
+    margin: 0;
 }
 
 .main-nav, .dropdown-menu {
@@ -97,27 +105,49 @@ p, ul, .contact a {
     color: white;
 }
 
+.nav-link:focus, .nav-link:hover, .button-link:focus, .button-link:hover {
+ color: white;
+}
+
 .main-nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: whitesmoke;
 }
 
-.quoiendométriose a, .symptômes a, .diagnostic a, .priseencharge a, .méthodesnaturelles a, .Evénements a, .contact a {
+.header-logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact {
+    padding: O 40px;
+}
+
+a.button-contact {
+    margin-inline-start: 20px;
+    width: fit-content;
+    display: block;
+} 
+
+.button-link {
     background-color: #22a6b3;
     color: white;
     text-decoration: none;
     padding: 10px;
     margin: 20px 10px;
     border-radius: 1rem;
+    width: fit-content;
+    display: block;
 }
 
 
-.main ul, .contact ul, .Evénements ul {
+.main ul, .Evénements ul {
     padding: 20px;
 
 }
 
-.main li, .contact li{
+.main li {
     margin: 5px;
 }
 
@@ -125,15 +155,28 @@ p, ul, .contact a {
     padding: 10px;
 }
 
-.article-schemas{
-    
-background-color:
-#fff ;
+
+
+.article-schemas {
+
+    display: block;
+    margin: 0 40px;
+    background-color: none ;
 }
 
 img {
     margin-bottom: 0px ;
     padding-bottom: 20px ;
+}
+
+.Propos-title {
+    text-align: center;
+}
+
+.Propos-article {
+    margin: 0 40px;
+    display: block;
+    justify-content: center;
 }
 
 
@@ -142,8 +185,11 @@ img {
     padding: 10px 20px;
 }
 
-.social-buttons a
-{
+.social-buttons {
+    justify-content: center;
+}
+
+.social-buttons a {
     display: inline-flex;
     text-decoration: none;
     font-size: 18px;
@@ -155,10 +201,12 @@ img {
     position: relative;
     margin: 0 8px;
   }
+
   .bt-top-social{
       display: flex;
       list-style: none;
   }
+
   .social-buttons a::before{
     content: "";
     position: absolute;
