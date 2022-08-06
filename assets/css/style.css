@@ -1,16 +1,20 @@
+/*Main*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
-.html, .body{
+html, body{
     font-size: 16px;
 }
 
-.body {
+body {
     margin: 0;
     line-height: 1.4;
     letter-spacing: 0.2px;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -32,13 +36,14 @@ p, ul, .contact a {
     margin: 10px 30px;
 }
 
+/*header*/
 
-.header {
+header {
     background-color: grey;
     padding: 20px;
     height: 400px;
     color: white;
-    background-image: url("img/Run_endo.jpg");
+    background-image: url("../img/Run_endo.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -81,6 +86,8 @@ p, ul, .contact a {
     background-color: rgba(255, 255, 255, 0.4)
 }
 
+/*Nav*/
+
 .main {
     background-color: lightgray;
     padding: 20px;
@@ -119,6 +126,8 @@ p, ul, .contact a {
     display: block;
     margin: 0 auto;
 }
+
+/*Content*/
 
 .contact {
     padding: O 40px;
@@ -179,12 +188,6 @@ img {
     justify-content: center;
 }
 
-
-.footer {
-    background-color: grey;
-    padding: 10px 20px;
-}
-
 .social-buttons {
     justify-content: center;
 }
@@ -232,3 +235,10 @@ img {
     -webkit-text-fill-color: transparent;
     transform: scale(2.8);
   }
+
+/*footer*/
+
+footer {
+    background-color: grey;
+    padding: 10px 20px;
+}
